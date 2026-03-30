@@ -7,6 +7,10 @@
     font-family: 'Roboto' , sans-serif;
 }
 
+
+/* ///////////////////////////////////
+/////////////  HEADER    /////////////
+/////////////////////////////////// */
 .header-block{
     background-color: #1F2937;
     padding: 0 10%;
@@ -80,3 +84,67 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+
+/* ///////////////////////////////////
+/////////// SECOND BLOCK /////////////
+/////////////////////////////////// */
+
+.second-block{
+    padding: 0 10%;
+}
+
+.second-block-title{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.elements{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.element{
+    width: 150px;
+}
+
+.element-img{
+    border-radius: 15px;
+    border: 2px solid #3883F6;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.element-text{
+    text-align: center;
+}
+
+/* ///////////////////////////////////
+/////////// SECOND BLOCK /////////////
+/////////////////////////////////// */
+
+.third-block{
+    background-color: #E5E7EB;
+    padding: 75px 20%;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.quote-author{
+    padding-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
